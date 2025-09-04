@@ -2,3 +2,4 @@ JSON Prompting for LLMS - https://blog.dailydoseofds.com/p/json-prompting-for-ll
 Introducing Pay per Crawl - https://blog.cloudflare.com/introducing-pay-per-crawl/
 Speech-to-text at unmatched accuracy with AssemblyAI - https://www.assemblyai.com/products/speech-to-text/?utm_source=dailydose&utm_medium=newsletter_sponsor&utm_campaign=placement&utm_content=diarization_081925
 https://github.com/Shubhamsaboo/awesome-llm-apps
+https://www.w3resource.com/python-exercises/itertools/index.php
