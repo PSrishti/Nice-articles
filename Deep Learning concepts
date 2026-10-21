@@ -1,1 +1,35 @@
+SHAP - SHAP (SHapley Additive exPlanations) is a game-theoretic approach used to explain the output of any machine learning model. It breaks down a prediction to show how much each individual feature contributes to that result.
+
+Core Concepts
+
+• Shapley Values: Rooted in cooperative game theory, features act as "players" in a game where the payout is the model's prediction.
+• Local vs. Global Interpretations:
+	• Local: Explains why a specific prediction was made for a single instance (e.g., why a loan was rejected).
+	• Global: Aggregates local values across an entire dataset to show overall feature importance and trends.
+• Direction of Impact: SHAP reveals whether a feature pushed the model output higher (positive) or lower (negative).
+
+Common Explainers & Methods
+
+• TreeSHAP: A fast, model-specific method optimized for tree-based models like XGBoost, LightGBM, and CatBoost.
+• KernelSHAP: A slower, model-agnostic method that treats the model as a black box and samples feature subsets.
+• DeepSHAP / GradientSHAP: Designed for deep learning models using frameworks like TensorFlow, Keras, and PyTorch.
+
+Popular Visualizations
+
+• Waterfall Plot: Shows how individual feature values start from a base value and push the prediction up or down to reach the final output.
+• Summary / Beeswarm Plot: Combines global feature importance with the distribution of impact direction across a dataset.
+• Bar Plot: Displays the mean absolute impact of each feature.
+
+Installation & Usage
+
+You can install the official Python library via PyPI or conda:
+pip install shap
+# or
+conda install -c conda-forge shap
+
+Reference urls - 
+https://shap.readthedocs.io/
+https://github.com/shap/shap
+https://www.geeksforgeeks.org/machine-learning/shap-a-comprehensive-guide-to-shapley-additive-explanations/
+
 
